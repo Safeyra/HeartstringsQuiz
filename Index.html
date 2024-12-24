@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartstring Quiz</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <div class="wrapper-main">
+        <div id="home" class="flex-center flex-column">
+        <header>
+            <img src="Banner.svg" style="max-width: 100%;">
+        </header>
+        <div class="begin-quiz-container">
+            <button id="start-quiz">Let's Start!</button>
+        </div>
+    </div>
+    <!--Quiz-Page-->
+    <div class="quiz-page" id="quiz-page" style= "display: none;">
+        <div id="quiz" class="justify-center flex-column">
+            <img id="question-progress-image" src="" >
+            <img id="question-image" src="">
+            <h2 id="question">question</h2>
+            <div id="choices" class="choices">
+                
+            </div>
+        </div>
+
+    <div>
+        <!--Results Page-->
+        <div id="results" style="display: none;">
+            <h1>You are a...</h1>
+            <div id="romantic-type-image">
+                
+            </div>  
+            <div>
+                <p2>Hold to save image!</p2>
+            </div>  
+            <div class="button-container">
+                <button class="share-button">Share Quiz!</button>
+                <button id="back-to-home">Back to Home</button>
+            </div>
+            <footer>
+                Made for <a href="https://x.com/SafeiraWrites">Safeira</a>'s Chanlix Valentine's Event
+            </footer>
+        </div>
+    </div>
+    </div>
+    <script src="HeartstringQuiz.js"></script>
+</body>
+</html>
