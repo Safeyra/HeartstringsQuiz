@@ -72,62 +72,49 @@ function displayQuiz() {
                       "I try to start a conversation in an attempt to ease any awkwardness.",
                       "I carefully observe the situation to make sure they're okay before offering my assistance."],
             weights: [
-                {judgingScore: +2, thinkingScore: +1, introvertScore: +2 }, // Weight for first choice
-                {extrovertScore: +2, feelingScore: +1, perceivingScore: +1 }, // Weight for second choice
-                {introvertScore: +1, feelingScore: +2, judgingScore: +1 }, // Weight for third choice
-                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +2 } // Weight for fourth choice
+                {judgingScore: +1, feelingScore: +1, extrovertScore: +2 }, // Weight for first choice
+                {introvertScore: +2, feelingScore: +1, judgingScore: +1 }, // Weight for second choice
+                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +1 }, // Weight for third choice
+                {introvertScore: +2, thinkingScore: +1, judgingScore: +1 } // Weight for fourth choice
             ]
         },
         {
             question:"You decide to stop by a cozy café for a break after walking for a while.",
-            choices: ["",
-                      "",
-                      "",
-                      ""],
+            choices: ["I order the same thing I usually do, can't go wrong with that.",
+                      "Oooh, there's a new drink on the menu! That sounds exciting!",
+                      "“What would you recommend? Maybe you could tell me why it's so popular...”",
+                      "Wow, there's so many different choices! I think I'll pick something to match my mood for the day."],
             weights: [
-                {judgingScore: +2, thinkingScore: +1, introvertScore: +2 }, // Weight for first choice
-                {extrovertScore: +2, feelingScore: +1, perceivingScore: +1 }, // Weight for second choice
-                {introvertScore: +1, feelingScore: +2, judgingScore: +1 }, // Weight for third choice
-                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +2 } // Weight for fourth choice
+                {judgingScore: +2, sensingScore: +1, introvertScore: +1 }, // Weight for first choice
+                {extrovertScore: +1, intuitionScore: +2, perceivingScore: +1 }, // Weight for second choice
+                {extrovertScore: +2, feelingScore: +1, intuitionScore: +1 }, // Weight for third choice
+                {introvertScore: +2, feelingScore: +1, sensingScore: +1 } // Weight for fourth choice
             ]
         },
         {
             question:"At the café, there’s a small pop-up shop selling Valentine’s Day gifts.",
-            choices: ["",
-                      "",
-                      "",
-                      ""],
+            choices: ["I think I'll get something like a handmade trinket or a keepsake. That way it feels personal and meaningful.",
+                      "Maybe a playful or fun item? It'll definitely put a smile on some faces.",
+                      "I could get the classic bouquet of flowers or chocolates, they're timeless for a reason.",
+                      "Oh, I guess I'll get something random for the heck of it."],
             weights: [
-                {judgingScore: +2, thinkingScore: +1, introvertScore: +2 }, // Weight for first choice
-                {extrovertScore: +2, feelingScore: +1, perceivingScore: +1 }, // Weight for second choice
-                {introvertScore: +1, feelingScore: +2, judgingScore: +1 }, // Weight for third choice
-                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +2 } // Weight for fourth choice
+                {feelingScore: +2, intuitionScore: +1, introvertScore: +1 }, // Weight for first choice
+                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +1 }, // Weight for second choice
+                {sensingScore: +1, feelingScore: +2, judgingScore: +1 }, // Weight for third choice
+                {extrovertScore: +1, intuitionScore: +1, perceivingScore: +2 } // Weight for fourth choice
             ]
         },
         {
             question:"As the day winds down, you reflect on your experience.",
-            choices: ["",
-                      "",
-                      "",
-                      ""],
+            choices: ["There were a lot of thoughtful moments that I shared with the people I encountered today...",
+                      "What an exciting day! I can't believe all that happened, wow!",
+                      "I really enjoyed how comfortable and familiar this day felt overall.",
+                      "Everything that happened today felt so strangely, I wonder what tomorrow's going to bring..."],
             weights: [
-                {judgingScore: +2, thinkingScore: +1, introvertScore: +2 }, // Weight for first choice
-                {extrovertScore: +2, feelingScore: +1, perceivingScore: +1 }, // Weight for second choice
-                {introvertScore: +1, feelingScore: +2, judgingScore: +1 }, // Weight for third choice
-                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +2 } // Weight for fourth choice
-            ]
-        },
-        {
-            question:"You decide to write a note to your soulmate (whether you’ve met them or not).",
-            choices: ["",
-                      "",
-                      "",
-                      ""],
-            weights: [
-                {judgingScore: +2, thinkingScore: +1, introvertScore: +2 }, // Weight for first choice
-                {extrovertScore: +2, feelingScore: +1, perceivingScore: +1 }, // Weight for second choice
-                {introvertScore: +1, feelingScore: +2, judgingScore: +1 }, // Weight for third choice
-                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +2 } // Weight for fourth choice
+                {feelingScore: +2, intuitionScore: +1, introvertScore: +1 }, // Weight for first choice
+                {extrovertScore: +1, thinkingScore: +1, perceivingScore: +2 }, // Weight for second choice
+                {introvertScore: +1, sensingScore: +1, judgingScore: +2 }, // Weight for third choice
+                {introvertScore: +1, thinkingScore: +1, intuitionScore: +2 } // Weight for fourth choice
             ]
         },
         {
@@ -137,10 +124,10 @@ function displayQuiz() {
                       "Someone who challenges me intellectually, brings excitement into every moment, and encourages me to step out of my comfort zone.",
                       "I want a person who is emotionally open, deeply connected to their values, and can share a sense of purpose and compassion in life."],
             weights: [
-                {judgingScore: +2, thinkingScore: +1, introvertScore: +2 }, // Weight for first choice
-                {extrovertScore: +2, feelingScore: +1, perceivingScore: +1 }, // Weight for second choice
-                {introvertScore: +1, feelingScore: +2, judgingScore: +1 }, // Weight for third choice
-                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +2 } // Weight for fourth choice
+                {perceivingScore: +1, intuitionScore: +1, introvertScore: +2 }, // Weight for first choice
+                {introvertScore: +2, feelingScore: +1, judgingScore: +1 }, // Weight for second choice
+                {extrovertScore: +2, thinkingScore: +1, perceivingScore: +1 }, // Weight for third choice
+                {feelingScore: +2, intuitionScore: +1, judgingScore: +1 } // Weight for fourth choice
             ]
         },
         {
@@ -194,15 +181,15 @@ function displayQuiz() {
     function displayCurrentQuestion() {
         const currentQuestion = questions[currentQuestionIndex];
         const questionElement = document.getElementById('question');
-        const progressImageElement = document.getElementById('question-progress-image');
+        // const progressImageElement = document.getElementById('question-progress-image');
         const choiceContainers = document.getElementById('choices');
         
         choiceContainers.innerHTML = '';
         
         questionElement.textContent = currentQuestion.question;
-        progressImageElement.src = getQuestionProgressImage(currentQuestionIndex);
+        // progressImageElement.src = getQuestionProgressImage(currentQuestionIndex);
         
-        displayQuestionImage(currentQuestionIndex);
+        // displayQuestionImage(currentQuestionIndex);
 
         currentQuestion.choices.forEach((choice, index) => {
                 //Buttons for choices
@@ -304,7 +291,7 @@ function displayQuiz() {
         quizContainer.remove();
         thumbnailImage.remove();
 
-        displayImage(mbtiTypeString);
+        // displayImage(mbtiTypeString);
 
         document.getElementById('results').style.display = 'block'
     }
