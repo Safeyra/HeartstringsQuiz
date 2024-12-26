@@ -172,7 +172,7 @@ function displayQuiz() {
         questionImageElement.src = imageURLs[questionIndex];
     }
 
-    document.getElementById('begin-quiz').addEventListener('click', function() {
+    document.getElementById('start-quiz').addEventListener('click', function() {
         document.getElementById('home').style.display = 'none';
         document.getElementById('quiz-page').style.display = 'block';
     });
