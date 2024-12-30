@@ -358,12 +358,12 @@ header img {
         color: #3B2921;
         background-color: #ffc0cb;
         border-radius: 37px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     #begin-quiz:hover {
         cursor: pointer;
-        background-color: #FFCD64;
+        background-color: #fad3e2;
         color: #fbfbfb;
         transform: none;
         transition: none;
