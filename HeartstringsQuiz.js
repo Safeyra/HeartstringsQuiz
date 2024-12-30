@@ -284,11 +284,9 @@ function displayQuiz() {
         const questionElement = document.getElementById('question');
         const choiceContainers = document.getElementById('choices');
         const quizContainer = document.getElementById('quiz');
-        const thumbnailImage = document.querySelector('img[src="Thumbnail.gif"]');
         questionElement.remove();
         choiceContainers.remove();
         quizContainer.remove();
-        thumbnailImage.remove();
 
         displayImage(mbtiTypeString);
 
