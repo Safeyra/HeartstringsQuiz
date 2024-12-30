@@ -135,7 +135,7 @@ header img {
 
 #begin-quiz:hover {
         cursor: pointer;
-        background-color: #FFCD64;
+        background-color: #fad3e2;
         color: #fbfbfb;
         transform: none;
         transition: transform 150ms;
