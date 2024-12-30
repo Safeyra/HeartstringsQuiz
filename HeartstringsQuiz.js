@@ -165,14 +165,13 @@ function displayQuiz() {
             "Q8.png",
             "Q9.png",
             "Q10.png",
-            "Q11.png",
-            "processing.GIF",
+            "processing.gif",
         ];
         const questionImageElement = document.getElementById('question-image');
         questionImageElement.src = imageURLs[questionIndex];
     }
 
-    document.getElementById('start-quiz').addEventListener('click', function() {
+    document.getElementById('begin-quiz').addEventListener('click', function() {
         document.getElementById('home').style.display = 'none';
         document.getElementById('quiz-page').style.display = 'block';
     });
@@ -181,15 +180,15 @@ function displayQuiz() {
     function displayCurrentQuestion() {
         const currentQuestion = questions[currentQuestionIndex];
         const questionElement = document.getElementById('question');
-        // const progressImageElement = document.getElementById('question-progress-image');
+        const progressImageElement = document.getElementById('question-progress-image');
         const choiceContainers = document.getElementById('choices');
         
         choiceContainers.innerHTML = '';
         
         questionElement.textContent = currentQuestion.question;
-        // progressImageElement.src = getQuestionProgressImage(currentQuestionIndex);
+        progressImageElement.src = getQuestionProgressImage(currentQuestionIndex);
         
-        // displayQuestionImage(currentQuestionIndex);
+        displayQuestionImage(currentQuestionIndex);
 
         currentQuestion.choices.forEach((choice, index) => {
                 //Buttons for choices
@@ -291,7 +290,7 @@ function displayQuiz() {
         quizContainer.remove();
         thumbnailImage.remove();
 
-        // displayImage(mbtiTypeString);
+        displayImage(mbtiTypeString);
 
         document.getElementById('results').style.display = 'block'
     }
@@ -299,22 +298,22 @@ function displayQuiz() {
     //Function to calculate MBTI type and return image URL 
         function getMBTIImageUrl(mbtiTypeString) {
             const MBTIImageUrls = {
-                "ENTJ": ".png",
-                "INTJ": ".png", 
-                "ENTP": ".png",
-                "INTP": ".png",
-                "ENFJ": ".png",
-                "INFJ": ".png",
-                "ENFP": ".png",
-                "INFP": ".png",
-                "ESFJ": ".png",
-                "ISFJ": ".png",
-                "ESTJ": ".png",
-                "ISTJ": ".png",
-                "ESTP": ".png",
-                "ISTP": ".png",
-                "ESFP": ".png",
-                "ISFP": ".png",
+                "ENTJ": "Star-Crossed Lover.png",
+                "INTJ": "Mysterious Match.png", 
+                "ENTP": "Love Skeptic.png",
+                "INTP": "Intellectual Spark.png",
+                "ENFJ": "Hopeless Romantic.png",
+                "INFJ": "Mysterious Match.png",
+                "ENFP": "Star-Crossed Lover.png",
+                "INFP": "Eternal Flame.png",
+                "ESFJ": "Hopeless Romantic.png",
+                "ISFJ": "Secret Admirer.png",
+                "ESTJ": "Practical Partner.png",
+                "ISTJ": "Practical Partner.png",
+                "ESTP": "Playful Tease.png",
+                "ISTP": "Love Skeptic.png",
+                "ESFP": "Eternal Flame.png",
+                "ISFP": "Artistic Flame.png",
             };
             return MBTIImageUrls[mbtiTypeString] || ""
         }
@@ -373,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     backButton.addEventListener('click', function() {
         // Redirect to the home page or perform any other action you want
-        window.location.href = 'https://Safeyra.github.io/HeartstringsQuiz/'; // Replace 'home.html' with the actual URL of your home page
+        window.location.href = 'https://gudetea.github.io/FruitCard-Odyssey/'; // Replace 'home.html' with the actual URL of your home page
     });
 });
 
