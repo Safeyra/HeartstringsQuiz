@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heartstring Quiz</title>
+    <title>Heartstrings</title>
     <link rel="stylesheet" href="Quiz.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W0BT0S586R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-W0BT0S586R');
+    </script>
 </head>
 <body>
     <div class="wrapper-main">
@@ -12,8 +21,20 @@
         <header>
             <img src="Banner.svg" style="max-width: 100%;">
         </header>
-        <div class="start-quiz-container">
-            <button id="start-quiz">Let's Start!</button>
+        <h3>
+            <b>Discover Your Soulmate Archetype!</b>
+        </h3>
+        <h4>
+            Love takes many forms, and your soulmate is out there, waiting to connect in a way that's uniquely you. Are you a Hopeless Romantic dreaming of poetic serenades? Or perhaps a Practical Partner, offering steady support and heartfelt connection?
+        </h4>
+        <h4>
+            In just ten questions, you'll find out the soulmate archetype that matches your unique personality.
+        </h4>
+        <p>
+            <img src="Thumbnail.gif" style="max-width: 100%;">
+        </p>
+        <div class="begin-quiz-container">
+            <button id="begin-quiz">Let's Begin!</button>
         </div>
     </div>
     <!--Quiz-Page-->
@@ -30,8 +51,7 @@
     <div>
         <!--Results Page-->
         <div id="results" style="display: none;">
-            <h1>You are a...</h1>
-            <div id="romantic-type-image">
+            <div id="mbti-image">
                 
             </div>  
             <div>
@@ -42,11 +62,11 @@
                 <button id="back-to-home">Back to Home</button>
             </div>
             <footer>
-                Made for <a href="https://x.com/SafeiraWrites">Safeira</a>'s Chanlix Valentine's Event
+                Made for <a href="https://x.com/SafeiraWrites">Safeira</a>'s Chanlix Valentine's Event | Assets made in <a href="https://www.canva.com/">Canva</a>
             </footer>
         </div>
     </div>
     </div>
-    <script src="HeartstringQuiz.js"></script>
+    <script src="FruitQuiz.js"></script>
 </body>
 </html>
