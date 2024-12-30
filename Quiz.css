@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: #FFF4EC;
+    background: #fff8e7;
     padding: 50px 0;
     margin: 0 auto;
     display: flex;
@@ -97,8 +97,7 @@ header {
 header img {
     max-width: 100%;
     height: auto;
-    width: 700px;
-    margin-top: 35px;
+    width: 300px;
 }
 
 .button-container {
@@ -126,11 +125,11 @@ header img {
     font-weight: 600;
     padding: 1rem 6rem;
     text-align: center;
-    border: 0.1rem solid #FFD989;
+    border: 0.1rem solid #f779b2;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #3B2921;
-    background-color: #FFD989;
+    background-color: #ffc0cb;
     border-radius: 37px;
 }
 
@@ -150,21 +149,21 @@ header img {
     font-size: 18px;
     font-weight: 600;
     width: 500px;
-    height: 5rem;
+    height: 8rem;
     text-align: center;
-    border: 0.1rem solid #FFD989;
+    border: 0.1rem solid #ffc0cb;
     margin:auto;
     margin-bottom: 2rem;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #3B2921;
-    background-color: #FFD989;
+    background-color: #ffc0cb;
     border-radius: 37px;
 }
 
 .choices:hover {
     cursor: pointer;
-    background-color: #FFCD64;
+    background-color: #fad3e2;
     color: #fbfbfb;
     transform: none;
     transition: transform 150ms;
@@ -177,22 +176,22 @@ header img {
     width: 200px;
     height: 45px;
     text-align: center;
-    border: 0.1rem solid #FFD989;
+    border: 0.1rem solid #ffc0cb;
     margin-bottom: 1rem;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #3B2921;
-    background-color: #FFD989;
+    background-color: #ffc0cb;
     border-radius: 37px;
 }
 
 .share-button {
-    background-color:#FFD989;
+    background-color:#ffc0cb;
 }
 
 #back-to-home:hover,.share-button:hover {
-    background-color:#FFCD64;
-    border-color: #FFCD64;
+    background-color:#fad3e2;
+    border-color: #fad3e2;
     color: #fbfbfb;
 }
 
@@ -236,7 +235,7 @@ header img {
 #mbti-image img{
     max-width: 100%;
     height: auto;
-    width: 643px;
+    width: 450px;
     margin-top: 10px;
 }
 
@@ -248,7 +247,7 @@ header img {
     } 
 
     body {
-        background: #FFF4EC;
+        background: #fff8e7;
         padding: 40px 0;
         margin: 0 auto;
         display: flex;
@@ -329,8 +328,7 @@ header img {
     header img {
         max-width: 100%;
         height: auto;
-        width: 700px;
-        margin-top: 10px;
+        width: 300px;
     }
 
     footer {
@@ -355,11 +353,11 @@ header img {
         padding: 8px;
         width: 180px;
         text-align: center;
-        border: 0.1rem solid #FFD989;
+        border: 0.1rem solid #f779b2;
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
         color: #3B2921;
-        background-color: #FFD989;
+        background-color: #ffc0cb;
         border-radius: 37px;
         margin-top: 50px;
     }
@@ -384,22 +382,22 @@ header img {
         font-size: 14px;
         font-weight: 600;
         width: 320px;
-        height: 50px;
+        height: 75px;
         text-align: center;
-        border: 0.1rem solid #FFD989;
+        border: 0.1rem solid #ffc0cb;
         margin:auto;
         margin-bottom: 15px;
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
         color: #3B2921;
-        background-color: #FFD989;
-        border-color: #FFD989;
-        border-radius: 37px;
+        background-color: #ffc0cb;
+        border-color: #ffc0cb;
+        border-radius: 10px;
      }
 
      .choices:hover {
         cursor: pointer;
-        background-color: #FFCD64;
+        background-color: #fad3e2;
         color: #fbfbfb;
         transform: none;
         transition: none;
