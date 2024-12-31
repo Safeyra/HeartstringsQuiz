@@ -7,9 +7,9 @@ function displayQuiz() {
                       "Write a quick thank-you note and leave it anonymously for the delivery person.",
                       "Greet the delivery person with a playful comment about being perfectly on time."],
             weights: [
-                { types: ["Mysterious Match", "Secret Admirer"], weight: 2 },
+                { types: ["Mysterious Match", "Hopeless Romantic"], weight: 2 },
                 { types: ["Eternal Flame", "Star-Crossed Lover"], weight: 2 },
-                { types: ["Intellectual Spark", "Hopeless Romantic"], weight: 2 },
+                { types: ["Intellectual Spark", "Secret Admirer"], weight: 2 },
                 { types: ["Playful Tease", "Love Skeptic"], weight: 2 }
             ]
         },
@@ -98,9 +98,9 @@ function displayQuiz() {
                       "I could get the classic bouquet of flowers or chocolates, they're timeless for a reason.",
                       "Oh, I guess I'll get something random for the heck of it."],
             weights: [
-                { types: ["Artistic Flame", "Secret Admirer"], weight: 2 },
+                { types: ["Artistic Flame", "Secret Admirer", "Hopeless Romantic"], weight: 2 },
                 { types: ["Playful Tease", "Love Skeptic"], weight: 2 },
-                { types: ["Eternal Flame", "Hopeless Romantic"], weight: 2 },
+                { types: ["Eternal Flame", "Practical Partner"], weight: 2 },
                 { types: ["Star-Crossed Lover", "Intellectual Spark"], weight: 2 }
             ]
         },
