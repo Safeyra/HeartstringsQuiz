@@ -7,10 +7,10 @@ function displayQuiz() {
                       "Write a quick thank-you note and leave it anonymously for the delivery person.",
                       "Greet the delivery person with a playful comment about being perfectly on time."],
             weights: [
-                {"introvertScore": +1, "thinkingScore": +1, "sensingScore": +1},
-                {"extrovertScore": +1, "feelingScore": +1, "intuitionScore": +2},  
-                {"introvertScore": +1, "feelingScore": +1, "judgingScore": +1},  
-                {"extrovertScore": +1, "thinkingScore": +1, "perceivingScore": +2}  
+                {"introvertScore": +2, "thinkingScore": +2},
+                {"extrovertScore": +2, "feelingScore": +2},
+                {"introvertScore": +2, "feelingScore": +2},
+                {"extrovertScore": +2, "thinkingScore": +2}
             ]
         },
         {
@@ -20,10 +20,10 @@ function displayQuiz() {
                       "I think I'll tuck it away for now and plan to open it privately later.",
                       "I'll examine the package carefully and make sure it’s safe before opening."],
             weights: [
-                {"perceivingScore": +2, "intuitionScore": +2, "extrovertScore": +1},
-                {"extrovertScore": +1, "feelingScore": +1, "sensingScore": +1},
-                {"introvertScore": +2, "feelingScore": +2, "judgingScore": +1},
-                {"introvertScore": +1, "thinkingScore": +1, "judgingScore": +1}
+                {"perceivingScore": +2, "intuitionScore": +2},
+                {"judgingScore": +2, "sensingScore": +2},
+                {"judgingScore": +2, "intuitionScore": +2},
+                {"perceivingScore": +2, "sensingScore": +2}
             ]
         },
         {
@@ -33,10 +33,10 @@ function displayQuiz() {
                       "Smile at the thoughtfulness and recall a special memory it brings up.",
                       "Appreciate its practicality and plan to wear it for the day."],
             weights: [
-                {"perceivingScore": +2, "intuitionScore": +1, "extrovertScore": +2},
-                {"extrovertScore": +1, "feelingScore": +2, "intuitionScore": +1},
-                {"introvertScore": +1, "feelingScore": +1, "judgingScore": +1},
-                {"introvertScore": +2, "thinkingScore": +1, "sensingScore": +1}
+                {"extrovertScore": +2, "intuitionScore": +2},
+                {"extrovertScore": +2, "sensingScore": +2},
+                {"introvertScore": +2, "intuitionScore": +2},
+                {"introvertScore": +2, "sensingScore": +2}
             ]
         },
         {
@@ -46,10 +46,10 @@ function displayQuiz() {
                       "Maybe I should revisit a favorite spot from my past to relive some good times...",
                       "I could organize a cozy indoor activity, like crafting or baking, to relax."],
             weights: [
-                {"extrovertScore": +2, "intuitionScore": +1, "perceivingScore": +1},
-            {"extrovertScore": +1, "sensingScore": +1, "intuitionScore": +1},  
-            {"introvertScore": +2, "feelingScore": +2, "judgingScore": +1}, 
-            {"introvertScore": +1, "judgingScore": +2, "sensingScore": +1}
+                {"feelingScore": +2, "perceivingScore": +2},
+                {"thinkingScore": +2, "perceivingScore": +2},
+                {"feelingScore": +2, "judgingScore": +2},
+                {"thinkingScore": +2, "judgingScore": +2}
             ]
         },
         {
@@ -59,10 +59,10 @@ function displayQuiz() {
                       "I whoop loudly and encourage the couple with sincere, heartfelt enthusiasm.",
                       "I just observe quietly, feeling touched by what I'm witnessing."],
             weights: [
-                { perceivingScore: +3, thinkingScore: +2, extrovertScore: +3 },
-                { introvertScore: +2, feelingScore: +3, judgingScore: +2 },
-                { extrovertScore: +3, feelingScore: +2, intuitionScore: +2 },
-                { introvertScore: +3, thinkingScore: +2, feelingScore: +2 }
+                {"thinkingScore": +2, "extrovertScore": +2},
+                {"feelingScore": +2, "introvertScore": +2},
+                {"feelingScore": +2, "extrovertScore": +2},
+                {"thinkingScore": +2, "introvertScore": +2}
             ]
         },
         {
@@ -72,10 +72,10 @@ function displayQuiz() {
                       "I try to start a conversation in an attempt to ease any awkwardness.",
                       "I carefully observe the situation to make sure they're okay before offering my assistance."],
             weights: [
-                { judgingScore: +2, feelingScore: +2, extrovertScore: +3 },
-                { introvertScore: +3, feelingScore: +2, judgingScore: +2 },
-                { extrovertScore: +3, thinkingScore: +2, perceivingScore: +2 },
-                { introvertScore: +3, thinkingScore: +2, judgingScore: +2 }
+                {"judgingScore": +2, "sensingScore": +2},
+                {"judgingScore": +2, "intuitionScore": +2},
+                {"perceivingScore": +2, "intuitionScore": +2},
+                {"perceivingScore": +2, "sensingScore": +2}
             ]
         },
         {
@@ -85,10 +85,10 @@ function displayQuiz() {
                       "“What would you recommend? Maybe you could tell me why it's so popular...”",
                       "Wow, there's so many different choices! I think I'll pick something to match my mood for the day."],
             weights: [
-                { judgingScore: +3, sensingScore: +2, introvertScore: +2 },
-                { extrovertScore: +2, intuitionScore: +3, perceivingScore: +2 },
-                { extrovertScore: +3, feelingScore: +2, intuitionScore: +2 },
-                { introvertScore: +3, feelingScore: +2, sensingScore: +2 }
+                {"sensingScore": +2, "feelingScore": +2},
+                {"intuitionScore": +2, "feelingScore": +2},
+                {"sensingScore": +2, "thinkingScore": +2},
+                {"intuitionScore": +2, "thinkingScore": +2}
             ]
         },
         {
@@ -98,10 +98,10 @@ function displayQuiz() {
                       "I could get the classic bouquet of flowers or chocolates, they're timeless for a reason.",
                       "Oh, I guess I'll get something random for the heck of it."],
             weights: [
-                { feelingScore: +3, intuitionScore: +2, introvertScore: +2 },
-                { extrovertScore: +3, thinkingScore: +2, perceivingScore: +2 },
-                { sensingScore: +2, feelingScore: +3, judgingScore: +2 },
-                { extrovertScore: +2, intuitionScore: +2, perceivingScore: +3 }
+                {"feelingScore": +2, "intuitionScore": +2},
+                {"thinkingScore": +2, "perceivingScore": +2},
+                {"feelingScore": +2, "sensingScore": +2},
+                {"thinkingScore": +2, "perceivingScore": +2}
             ]
         },
         {
@@ -111,10 +111,10 @@ function displayQuiz() {
                       "I really enjoyed how comfortable and familiar this day felt overall.",
                       "Everything that happened today felt so strange, I wonder what tomorrow's going to bring..."],
             weights: [
-                { feelingScore: +3, intuitionScore: +2, introvertScore: +2 },
-                { extrovertScore: +2, thinkingScore: +2, perceivingScore: +3 },
-                { introvertScore: +2, sensingScore: +2, judgingScore: +3 },
-                { introvertScore: +2, thinkingScore: +2, intuitionScore: +3 }
+                {"feelingScore": +2, "introvertScore": +2},
+                {"thinkingScore": +2, "extrovertScore": +2},
+                {"sensingScore": +2, "introvertScore": +2},
+                {"intuitionScore": +2, "extrovertScore": +2}
             ]
         },
         {
@@ -124,10 +124,10 @@ function displayQuiz() {
                       "Someone who challenges me intellectually, brings excitement into every moment, and encourages me to step out of my comfort zone.",
                       "I want a person who is emotionally open, deeply connected to their values, and can share a sense of purpose and compassion in life."],
             weights: [
-                { perceivingScore: +2, intuitionScore: +2, introvertScore: +3 },
-                { introvertScore: +3, feelingScore: +2, judgingScore: +2 },
-                { extrovertScore: +3, thinkingScore: +2, perceivingScore: +2 },
-                { feelingScore: +3, intuitionScore: +2, judgingScore: +2 }
+                {"intuitionScore": +2, "perceivingScore": +2},
+                {"sensingScore": +2, "judgingScore": +2},
+                {"intuitionScore": +2, "thinkingScore": +2},
+                {"feelingScore": +2, "judgingScore": +2}
             ]
         },
         {
