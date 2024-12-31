@@ -7,10 +7,10 @@ function displayQuiz() {
                       "Write a quick thank-you note and leave it anonymously for the delivery person.",
                       "Greet the delivery person with a playful comment about being perfectly on time."],
             weights: [
-                { perceivingScore: +3, thinkingScore: +2, introvertScore: +3 },
-                { extrovertScore: +3, feelingScore: +2, intuitionScore: +2 },
-                { introvertScore: +2, feelingScore: +3, judgingScore: +2 },
-                { extrovertScore: +3, thinkingScore: +2, perceivingScore: +3 }
+                {"introvertScore": +1, "thinkingScore": +1, "sensingScore": +1},
+                {"extrovertScore": +1, "feelingScore": +1, "intuitionScore": +2},  
+                {"introvertScore": +1, "feelingScore": +1, "judgingScore": +1},  
+                {"extrovertScore": +1, "thinkingScore": +1, "perceivingScore": +2}  
             ]
         },
         {
@@ -20,10 +20,10 @@ function displayQuiz() {
                       "I think I'll tuck it away for now and plan to open it privately later.",
                       "I'll examine the package carefully and make sure it’s safe before opening."],
             weights: [
-                { perceivingScore: +3, thinkingScore: +2, extrovertScore: +3 },
-                { extrovertScore: +3, feelingScore: +2, intuitionScore: +2 },
-                { introvertScore: +2, feelingScore: +3, judgingScore: +2 },
-                { introvertScore: +3, thinkingScore: +2, judgingScore: +2 }
+                {"perceivingScore": +2, "intuitionScore": +2, "extrovertScore": +1},
+                {"extrovertScore": +1, "feelingScore": +1, "sensingScore": +1},
+                {"introvertScore": +2, "feelingScore": +2, "judgingScore": +1},
+                {"introvertScore": +1, "thinkingScore": +1, "judgingScore": +1}
             ]
         },
         {
@@ -33,10 +33,10 @@ function displayQuiz() {
                       "Smile at the thoughtfulness and recall a special memory it brings up.",
                       "Appreciate its practicality and plan to wear it for the day."],
             weights: [
-                { perceivingScore: +3, thinkingScore: +2, extrovertScore: +2 },
-                { extrovertScore: +3, feelingScore: +2, intuitionScore: +2 },
-                { introvertScore: +3, feelingScore: +3, intuitionScore: +2 },
-                { introvertScore: +2, thinkingScore: +2, judgingScore: +3 }
+                {"perceivingScore": +2, "intuitionScore": +1, "extrovertScore": +2},
+                {"extrovertScore": +1, "feelingScore": +2, "intuitionScore": +1},
+                {"introvertScore": +1, "feelingScore": +1, "judgingScore": +1},
+                {"introvertScore": +2, "thinkingScore": +1, "sensingScore": +1}
             ]
         },
         {
@@ -46,10 +46,10 @@ function displayQuiz() {
                       "Maybe I should revisit a favorite spot from my past to relive some good times...",
                       "I could organize a cozy indoor activity, like crafting or baking, to relax."],
             weights: [
-                { perceivingScore: +3, thinkingScore: +2, extrovertScore: +2 },
-                { extrovertScore: +2, sensingScore: +3, perceivingScore: +2 },
-                { introvertScore: +3, feelingScore: +3, intuitionScore: +2 },
-                { judgingScore: +3, sensingScore: +2, feelingScore: +2 }
+                {"extrovertScore": +2, "intuitionScore": +1, "perceivingScore": +1},
+            {"extrovertScore": +1, "sensingScore": +1, "intuitionScore": +1},  
+            {"introvertScore": +2, "feelingScore": +2, "judgingScore": +1}, 
+            {"introvertScore": +1, "judgingScore": +2, "sensingScore": +1}
             ]
         },
         {
