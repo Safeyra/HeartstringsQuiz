@@ -44,7 +44,7 @@ function displayQuiz() {
             choices: ["Call up a few friends for an unplanned meetup—I’ll see where the day takes me.",
                       "How about I plan a spontaneous adventure, like exploring a new part of town?",
                       "Maybe I should revisit a favorite spot from my past to relive some good times...",
-                      "I could organize a cozy indoor activity, like crafting or baking, to relax."],
+                      "I could hunt for a cozy place to relax at, like maybe the library."],
             weights: [
                 {"feelingScore": +2, "perceivingScore": +2},
                 {"thinkingScore": +2, "perceivingScore": +2},
