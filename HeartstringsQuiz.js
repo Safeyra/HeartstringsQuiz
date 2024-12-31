@@ -134,8 +134,8 @@ function displayQuiz() {
             question: "Tugging on your heartstrings...",
             choices: ["Find out what kind of romantic I am!"],
             weights: [
-                {extrovertScore: 0, introvertScore: 0 }, // placeholder
-                {introvertScore: 0, extrovertScore: 0}, //Placeholder
+                { types: ["Eternal Flame", "Artistic Flame"], weight: 0 }, // placeholder
+                { types: ["Eternal Flame", "Artistic Flame"], weight: 0 } //Placeholder
             ]
         },
     ]
@@ -275,7 +275,7 @@ function displayQuiz() {
         // }
 
             const currentQuestion = questions[currentQuestionIndex]; // Updated to use questionWeights
-            const selectedChoice = currentQuestion.choices[choiceIndex]; // Get the selected choice
+            const selectedChoice = currentQuestion.weights[choiceIndex]; // Get the selected choice
             console.log("Selected choice mapping:", selectedChoice);
         
             // Dynamically update soulmate type scores
