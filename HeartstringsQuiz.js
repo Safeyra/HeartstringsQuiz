@@ -376,6 +376,12 @@ function displayQuiz() {
         const imagePath = imageMap[soulmateType];
         // Logic to display the image on your page
         console.log("Displaying image:", imagePath);
+
+        const mbtiImageContainer = document.getElementById('mbti-image');
+        const imageElement = document.createElement('img');
+        imageElement.src = imagePath;
+
+        mbtiImageContainer.appendChild(imageElement);
     }
     
     //Function to calculate MBTI type and return image URL 
