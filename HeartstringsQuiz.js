@@ -334,10 +334,10 @@ function displayQuiz() {
         let soulmateType = "";
     
         // Iterate through all soulmate types
-        Object.keys(window).forEach(key => {
-            if (key.endsWith("Score") && window[key] > highestScore) {
-                highestScore = window[key];
-                soulmateType = key.replace("Score", ""); // Remove 'Score' from the key to get the type name
+        Object.keys(soulmateScores).forEach(key => {
+            if (soulmateScores[key] > highestScore) {
+                highestScore = soulmateScores[key];
+                soulmateType = key; // Remove 'Score' from the key to get the type name
             }
         });
     
