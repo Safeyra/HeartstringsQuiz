@@ -7,10 +7,10 @@ function displayQuiz() {
                       "Write a quick thank-you note and leave it anonymously for the delivery person.",
                       "Greet the delivery person with a playful comment about being perfectly on time."],
             weights: [
-                {"introvertScore": +2, "thinkingScore": +2},
-                {"extrovertScore": +2, "feelingScore": +2},
-                {"introvertScore": +2, "feelingScore": +2},
-                {"extrovertScore": +2, "thinkingScore": +2}
+                { types: ["Mysterious Match", "Secret Admirer"], weight: 2 },
+                { types: ["Eternal Flame", "Star-Crossed Lover"], weight: 2 },
+                { types: ["Intellectual Spark", "Hopeless Romantic"], weight: 2 },
+                { types: ["Playful Tease", "Love Skeptic"], weight: 2 }
             ]
         },
         {
@@ -20,10 +20,10 @@ function displayQuiz() {
                       "I think I'll tuck it away for now and plan to open it privately later.",
                       "I'll examine the package carefully and make sure it’s safe before opening."],
             weights: [
-                {"perceivingScore": +2, "intuitionScore": +2},
-                {"judgingScore": +2, "sensingScore": +2},
-                {"judgingScore": +2, "intuitionScore": +2},
-                {"perceivingScore": +2, "sensingScore": +2}
+                { types: ["Playful Tease", "Star-Crossed Lover"], weight: 2 },
+                { types: ["Practical Partner", "Hopeless Romantic"], weight: 2 },
+                { types: ["Mysterious Match", "Eternal Flame"], weight: 2 },
+                { types: ["Intellectual Spark", "Love Skeptic"], weight: 2 }
             ]
         },
         {
@@ -33,10 +33,10 @@ function displayQuiz() {
                       "Smile at the thoughtfulness and recall a special memory it brings up.",
                       "Appreciate its practicality and plan to wear it for the day."],
             weights: [
-                {"extrovertScore": +2, "intuitionScore": +2},
-                {"extrovertScore": +2, "sensingScore": +2},
-                {"introvertScore": +2, "intuitionScore": +2},
-                {"introvertScore": +2, "sensingScore": +2}
+                { types: ["Playful Tease", "Star-Crossed Lover"], weight: 2 },
+                { types: ["Eternal Flame", "Artistic Flame"], weight: 2 },
+                { types: ["Mysterious Match", "Secret Admirer"], weight: 2 },
+                { types: ["Practical Partner", "Hopeless Romantic"], weight: 2 }
             ]
         },
         {
@@ -46,10 +46,10 @@ function displayQuiz() {
                       "Maybe I should revisit a favorite spot from my past to relive some good times...",
                       "I could hunt for a cozy place to relax at, like maybe the library."],
             weights: [
-                {"feelingScore": +2, "perceivingScore": +2},
-                {"thinkingScore": +2, "perceivingScore": +2},
-                {"feelingScore": +2, "judgingScore": +2},
-                {"thinkingScore": +2, "judgingScore": +2}
+                { types: ["Playful Tease", "Love Skeptic"], weight: 2 },
+                { types: ["Star-Crossed Lover", "Intellectual Spark"], weight: 2 },
+                { types: ["Hopeless Romantic", "Eternal Flame"], weight: 2 },
+                { types: ["Practical Partner", "Artistic Flame"], weight: 2 }
             ]
         },
         {
@@ -59,10 +59,10 @@ function displayQuiz() {
                       "I whoop loudly and encourage the couple with sincere, heartfelt enthusiasm.",
                       "I just observe quietly, feeling touched by what I'm witnessing."],
             weights: [
-                {"thinkingScore": +2, "extrovertScore": +2},
-                {"feelingScore": +2, "introvertScore": +2},
-                {"feelingScore": +2, "extrovertScore": +2},
-                {"thinkingScore": +2, "introvertScore": +2}
+                { types: ["Playful Tease", "Love Skeptic"], weight: 2 },
+                { types: ["Secret Admirer", "Hopeless Romantic"], weight: 2 },
+                { types: ["Eternal Flame", "Star-Crossed Lover"], weight: 2 },
+                { types: ["Mysterious Match", "Intellectual Spark"], weight: 2 }
             ]
         },
         {
@@ -72,10 +72,10 @@ function displayQuiz() {
                       "I try to start a conversation in an attempt to ease any awkwardness.",
                       "I carefully observe the situation to make sure they're okay before offering my assistance."],
             weights: [
-                {"judgingScore": +2, "sensingScore": +2},
-                {"judgingScore": +2, "intuitionScore": +2},
-                {"perceivingScore": +2, "intuitionScore": +2},
-                {"perceivingScore": +2, "sensingScore": +2}
+               { types: ["Practical Partner", "Hopeless Romantic"], weight: 2 },
+                { types: ["Mysterious Match", "Artistic Flame"], weight: 2 },
+                { types: ["Love Skeptic", "Intellectual Spark"], weight: 2 },
+                { types: ["Playful Tease", "Eternal Flame"], weight: 2 }
             ]
         },
         {
@@ -85,10 +85,10 @@ function displayQuiz() {
                       "“What would you recommend? Maybe you could tell me why it's so popular...”",
                       "Wow, there's so many different choices! I think I'll pick something to match my mood for the day."],
             weights: [
-                {"sensingScore": +2, "feelingScore": +2},
-                {"intuitionScore": +2, "feelingScore": +2},
-                {"sensingScore": +2, "thinkingScore": +2},
-                {"intuitionScore": +2, "thinkingScore": +2}
+                { types: ["Practical Partner", "Eternal Flame"], weight: 2 },
+                { types: ["Playful Tease", "Star-Crossed Lover"], weight: 2 },
+                { types: ["Mysterious Match", "Love Skeptic"], weight: 2 },
+                { types: ["Intellectual Spark", "Artistic Flame"], weight: 2 }
             ]
         },
         {
@@ -98,10 +98,10 @@ function displayQuiz() {
                       "I could get the classic bouquet of flowers or chocolates, they're timeless for a reason.",
                       "Oh, I guess I'll get something random for the heck of it."],
             weights: [
-                {"feelingScore": +2, "intuitionScore": +2},
-                {"thinkingScore": +2, "perceivingScore": +2},
-                {"feelingScore": +2, "sensingScore": +2},
-                {"thinkingScore": +2, "perceivingScore": +2}
+                { types: ["Artistic Flame", "Secret Admirer"], weight: 2 },
+                { types: ["Playful Tease", "Love Skeptic"], weight: 2 },
+                { types: ["Eternal Flame", "Hopeless Romantic"], weight: 2 },
+                { types: ["Star-Crossed Lover", "Intellectual Spark"], weight: 2 }
             ]
         },
         {
@@ -111,10 +111,10 @@ function displayQuiz() {
                       "I really enjoyed how comfortable and familiar this day felt overall.",
                       "Everything that happened today felt so strange, I wonder what tomorrow's going to bring..."],
             weights: [
-                {"feelingScore": +2, "introvertScore": +2},
-                {"thinkingScore": +2, "extrovertScore": +2},
-                {"sensingScore": +2, "introvertScore": +2},
-                {"intuitionScore": +2, "extrovertScore": +2}
+                { types: ["Hopeless Romantic", "Secret Admirer"], weight: 2 },
+                { types: ["Playful Tease", "Star-Crossed Lover"], weight: 2 },
+                { types: ["Practical Partner", "Eternal Flame"], weight: 2 },
+                { types: ["Mysterious Match", "Love Skeptic"], weight: 2 }
             ]
         },
         {
@@ -124,10 +124,10 @@ function displayQuiz() {
                       "Someone who challenges me intellectually, brings excitement into every moment, and encourages me to step out of my comfort zone.",
                       "I want a person who is emotionally open, deeply connected to their values, and can share a sense of purpose and compassion in life."],
             weights: [
-                {"intuitionScore": +2, "perceivingScore": +2},
-                {"sensingScore": +2, "judgingScore": +2},
-                {"intuitionScore": +2, "thinkingScore": +2},
-                {"feelingScore": +2, "judgingScore": +2}
+                { types: ["Star-Crossed Lover", "Mysterious Match"], weight: 2 },
+                { types: ["Practical Partner", "Hopeless Romantic"], weight: 2 },
+                { types: ["Intellectual Spark", "Playful Tease"], weight: 2 },
+                { types: ["Eternal Flame", "Artistic Flame"], weight: 2 }
             ]
         },
         {
@@ -143,14 +143,30 @@ function displayQuiz() {
 
     //Variables for scores 
     let currentQuestionIndex = 0;
-    let introvertScore = 0;
-    let extrovertScore = 0;
-    let judgingScore = 0;
-    let perceivingScore = 0;
-    let sensingScore = 0;
-    let intuitionScore = 0;
-    let thinkingScore = 0;
-    let feelingScore = 0;
+    let starCrossedLoverScore = 0;
+    let mysteriousMatchScore = 0;
+    let loveSkepticScore = 0;
+    let intellectualSparkScore = 0;
+    let hopelessRomanticScore = 0;
+    let eternalFlameScore = 0;
+    let secretAdmirerScore = 0;
+    let practicalPartnerScore = 0;
+    let playfulTeaseScore = 0;
+    let artisticFlameScore = 0;
+
+    const soulmateScores = {
+        "Star-Crossed Lover": 0,
+        "Mysterious Match": 0,
+        "Love Skeptic": 0,
+        "Intellectual Spark": 0,
+        "Hopeless Romantic": 0,
+        "Eternal Flame": 0,
+        "Secret Admirer": 0,
+        "Practical Partner": 0,
+        "Playful Tease": 0,
+        "Artistic Flame": 0
+    };
+
 
 
     function displayQuestionImage(questionIndex) {
@@ -222,35 +238,53 @@ function displayQuiz() {
     //Function to handle choice click
     function handleChoiceClick(choiceIndex) {
         // Update scores based on user response
-        const currentQuestion = questions[currentQuestionIndex];
-        const selectedChoiceWeight = currentQuestion.weights[choiceIndex];
-        console.log("Selected choice weight:", selectedChoiceWeight);
+        // const currentQuestion = questions[currentQuestionIndex];
+        // const selectedChoiceWeight = currentQuestion.weights[choiceIndex];
+        // console.log("Selected choice weight:", selectedChoiceWeight);
 
-                //Update scores based on weight of selected choice
-                if (selectedChoiceWeight.hasOwnProperty('introvertScore')) {
-                    introvertScore += selectedChoiceWeight.introvertScore;
+        // //Update scores based on weight of selected choice
+        // if (selectedChoiceWeight.hasOwnProperty('starCrossedLoverScore')) {
+        //     starCrossedLoverScore += selectedChoiceWeight.starCrossedLoverScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('mysteriousMatchScore')) {
+        //     mysteriousMatchScore += selectedChoiceWeight.mysteriousMatchScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('loveSkepticScore')) {
+        //     loveSkepticScore += selectedChoiceWeight.loveSkepticScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('intellectualSparkScore')) {
+        //     intellectualSparkScore += selectedChoiceWeight.intellectualSparkScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('hopelessRomanticScore')) {
+        //     hopelessRomanticScore += selectedChoiceWeight.hopelessRomanticScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('eternalFlameScore')) {
+        //     eternalFlameScore += selectedChoiceWeight.eternalFlameScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('secretAdmirerScore')) {
+        //     secretAdmirerScore += selectedChoiceWeight.secretAdmirerScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('practicalPartnerScore')) {
+        //     practicalPartnerScore += selectedChoiceWeight.practicalPartnerScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('playfulTeaseScore')) {
+        //     playfulTeaseScore += selectedChoiceWeight.playfulTeaseScore;
+        // }
+        // if (selectedChoiceWeight.hasOwnProperty('artisticFlameScore')) {
+        //     practicalPartnerScore += selectedChoiceWeight.artisticFlameScore;
+        // }
+
+            const currentQuestion = questions[currentQuestionIndex]; // Updated to use questionWeights
+            const selectedChoice = currentQuestion.choices[choiceIndex]; // Get the selected choice
+            console.log("Selected choice mapping:", selectedChoice);
+        
+            // Dynamically update soulmate type scores
+            selectedChoice.types.forEach(type => {
+                if (!soulmateScores[type]) {
+                    soulmateScores[type] = 0; // Initialize type score if not already defined
                 }
-                if (selectedChoiceWeight.hasOwnProperty('extrovertScore')) {
-                    extrovertScore += selectedChoiceWeight.extrovertScore;
-                }
-                if (selectedChoiceWeight.hasOwnProperty('judgingScore')) {
-                    judgingScore += selectedChoiceWeight.judgingScore;
-                }
-                if (selectedChoiceWeight.hasOwnProperty('perceivingScore')) {
-                    perceivingScore += selectedChoiceWeight.perceivingScore;
-                }
-                if (selectedChoiceWeight.hasOwnProperty('sensingScore')) {
-                    sensingScore += selectedChoiceWeight.sensingScore;
-                }
-                if (selectedChoiceWeight.hasOwnProperty('intuitionScore')) {
-                    intuitionScore += selectedChoiceWeight.intuitionScore;
-                }
-                if (selectedChoiceWeight.hasOwnProperty('thinkingScore')) {
-                    thinkingScore += selectedChoiceWeight.thinkingScore;
-                }
-                if (selectedChoiceWeight.hasOwnProperty('feelingScore')) {
-                    feelingScore += selectedChoiceWeight.feelingScore;
-                }
+                soulmateScores[type] += selectedChoice.weight; // Increment the score for the soulmate type
+            });
 
             //Move to the next question
             currentQuestionIndex++;
@@ -258,7 +292,8 @@ function displayQuiz() {
             if (currentQuestionIndex < questions.length) {
                 displayCurrentQuestion();
             } else {
-                calculateMBTITypeAndDisplayImage();
+                // calculateMBTITypeAndDisplayImage();
+                displaySoulmateResult();
             }
         }
         
@@ -291,6 +326,56 @@ function displayQuiz() {
         displayImage(mbtiTypeString);
 
         document.getElementById('results').style.display = 'block'
+    }
+
+    function displaySoulmateResult() {
+        // Find the soulmate type with the highest score
+        let highestScore = 0;
+        let soulmateType = "";
+    
+        // Iterate through all soulmate types
+        Object.keys(window).forEach(key => {
+            if (key.endsWith("Score") && window[key] > highestScore) {
+                highestScore = window[key];
+                soulmateType = key.replace("Score", ""); // Remove 'Score' from the key to get the type name
+            }
+        });
+    
+        console.log("Soulmate Type:", soulmateType);
+        console.log("Highest Score:", highestScore);
+
+        document.getElementById('results').style.display = 'none';
+        
+        //Remove quiz-related elements from the DOM
+        const questionElement = document.getElementById('question');
+        const choiceContainers = document.getElementById('choices');
+        const quizContainer = document.getElementById('quiz');
+        questionElement.remove();
+        choiceContainers.remove();
+        quizContainer.remove();
+
+        displaySoulmateImage(soulmateType);
+
+        document.getElementById('results').style.display = 'block'
+    }
+
+    function displaySoulmateImage(soulmateType) {
+        const imageMap = {
+            "Star-Crossed Lover": "Star-Crossed Lover.png",
+            "Mysterious Match": "Mysterious Match.png",
+            "Love Skeptic": "Love Skeptic.png",
+            "Intellectual Spark": "Intellectual Spark.png",
+            "Hopeless Romantic": "Hopeless Romantic.png",
+            "Eternal Flame": "Eternal Flame.png",
+            "Secret Admirer": "Secret Admirer.png",
+            "Practical Partner": "Practical Partner.png",
+            "Playful Tease": "Playful Tease.png",
+            "Artistic Flame": "Artistic Flame.png"
+        };
+    
+        const imagePath = imageMap[soulmateType];
+        // Logic to display the image on your page
+        console.log("Displaying image:", imagePath);
     }
     
     //Function to calculate MBTI type and return image URL 
