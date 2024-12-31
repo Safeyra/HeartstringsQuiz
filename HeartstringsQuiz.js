@@ -109,7 +109,7 @@ function displayQuiz() {
             choices: ["There were a lot of thoughtful moments that I shared with the people I encountered today...",
                       "What an exciting day! I can't believe all that happened, wow!",
                       "I really enjoyed how comfortable and familiar this day felt overall.",
-                      "Everything that happened today felt so strangely, I wonder what tomorrow's going to bring..."],
+                      "Everything that happened today felt so strange, I wonder what tomorrow's going to bring..."],
             weights: [
                 {feelingScore: +2, intuitionScore: +1, introvertScore: +1 }, // Weight for first choice
                 {extrovertScore: +1, thinkingScore: +1, perceivingScore: +2 }, // Weight for second choice
